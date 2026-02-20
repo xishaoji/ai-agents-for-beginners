@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+logging.getLogger("agent_framework.azure").setLevel(logging.ERROR)
 from typing import Annotated
 from dotenv import load_dotenv
 import requests
